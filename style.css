@@ -1,0 +1,50 @@
+body{
+       background-image : url(calc.jpg) ;
+       background-attachment: fixed;
+    }
+    
+input{
+       background-image : url(calc.jpg) ;
+       background-attachment: fixed;
+       font-weight: bold;
+       color: white;
+       opacity: 0.6;
+       border: solid 3px;
+       border-color: white;
+     }
+     input:hover{opacity: 1}
+
+button {
+             color: black;
+             padding: 10px 2px;
+             display: inline-block;
+             border-radius: 5px;
+             opacity: 0.6;
+             border: solid 3px;
+             font-size: 20px;
+             font-weight: bold;
+             width: 70px;
+             text-align: center;
+       }
+       button:hover{opacity: 1;}
+
+     button.num  {background-color: #32CD32;    //green}      
+     button.op   {background-color: #6495ED;    //blue }
+     button.other{background-color: #FFFFFF;    //white}
+
+div{ margin: 4px;}
+
+div.screen{ 
+	        text-align: center;
+	        height: 40px;
+	      }
+
+div.ticbody{ 
+               position: absolute;
+               top: 35%;
+               right: 40%; 
+               border: solid 5px;
+               border-radius: 5px;
+               border-color: yellow;
+               display: inline-block;
+            }

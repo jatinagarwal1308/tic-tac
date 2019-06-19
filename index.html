@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<h1 style="font-size: 50px; color: white; font-family: cursive;">TIC-TAC-TOE</h1>
+	<title>TIC-TAC-TOE</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<body>
+
+<form action="java.js" method="post">
+ <p style="color: white; font-weight: bold;">PLAYER 1 </p> <input type="text" name="p1" placeholder="Enter your name" id="p1"><br><br>
+ <p style="color: white; font-weight: bold;">PLAYER 2 </p> <input type="text" name="p2" placeholder="Enter your name" id="p2"><br><br>
+<input type="submit" name="SUBMIT">
+</form>
+
+<div class="ticbody">
+
+	<div class="screen">
+		<h2 id="display" style="color: white;"></h2>
+	</div>
+
+<div>
+	<button onclick="val('1')" class="num">1</button>
+	<button onclick="val('2')" class="num">2</button>
+	<button onclick="val('3')" class="num">3</button>
+</div>
+
+
+<div>
+	<button onclick="val('4')" class="num">4</button>
+	<button onclick="val('5')" class="num">5</button>
+	<button onclick="val('6')" class="num">6</button>
+</div>
+
+
+<div>
+	<button onclick="val('7')" class="num">7</button>
+	<button onclick="val('8')" class="num">8</button>
+	<button onclick="val('9')" class="num">9</button>
+</div>
+
+<div style="text-align: center;">
+	<button onclick="val('RESTART')" class="other" style="width: 150px;">RESTART</button>
+</div>
+
+
+</div>
+
+<script type="text/javascript" src="java.js"></script>
+
+</body>
+</html>
