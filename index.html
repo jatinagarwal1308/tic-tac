@@ -11,10 +11,10 @@
 
 <body>
 
-<form action="java.js" method="post">
+<form>
  <p style="color: white; font-weight: bold;">PLAYER 1 </p> <input type="text" name="p1" placeholder="Enter your name" id="p1"><br><br>
  <p style="color: white; font-weight: bold;">PLAYER 2 </p> <input type="text" name="p2" placeholder="Enter your name" id="p2"><br><br>
-<input type="submit" name="SUBMIT">
+<input type="submit" name="SUBMIT" onclick="displayname()">
 </form>
 
 <div class="ticbody">
@@ -24,27 +24,27 @@
 	</div>
 
 <div>
-	<button onclick="val('1')" class="num">1</button>
-	<button onclick="val('2')" class="num">2</button>
-	<button onclick="val('3')" class="num">3</button>
+	<button onclick="val('0','0')" class="num" id="00"></button>
+	<button onclick="val('0','1')" class="num" id="01"></button>
+	<button onclick="val('0','2')" class="num" id="02"></button>
 </div>
 
 
 <div>
-	<button onclick="val('4')" class="num">4</button>
-	<button onclick="val('5')" class="num">5</button>
-	<button onclick="val('6')" class="num">6</button>
+	<button onclick="val('1','0')" class="num" id="10"></button>
+	<button onclick="val('1','1')" class="num" id="11"></button>
+	<button onclick="val('1','2')" class="num" id="12"></button>
 </div>
 
 
 <div>
-	<button onclick="val('7')" class="num">7</button>
-	<button onclick="val('8')" class="num">8</button>
-	<button onclick="val('9')" class="num">9</button>
+	<button onclick="val('2','0')" class="num" id="20"></button>
+	<button onclick="val('2','1')" class="num" id="21"></button>
+	<button onclick="val('2','1')" class="num" id="22"></button>
 </div>
 
 <div style="text-align: center;">
-	<button onclick="val('RESTART')" class="other" style="width: 150px;">RESTART</button>
+	<button onclick="val('RESTART')" class="other" style="width: 150px; height: 50px;">RESTART</button>
 </div>
 
 

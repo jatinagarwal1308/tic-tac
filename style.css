@@ -25,11 +25,11 @@ button {
              font-weight: bold;
              width: 70px;
              text-align: center;
+             height: 40px;
        }
        button:hover{opacity: 1;}
 
-     button.num  {background-color: #32CD32;    //green}      
-     button.op   {background-color: #6495ED;    //blue }
+     button.num  {background-color: #32CD32;    //green}
      button.other{background-color: #FFFFFF;    //white}
 
 div{ margin: 4px;}
