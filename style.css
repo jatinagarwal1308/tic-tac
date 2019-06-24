@@ -16,7 +16,8 @@ input{
 
 button {
              color: black;
-             padding: 10px 2px;
+             padding: 4px 2px;
+             margin: 3px;
              display: inline-block;
              border-radius: 5px;
              opacity: 0.6;
@@ -48,3 +49,15 @@ div.ticbody{
                border-color: yellow;
                display: inline-block;
             }
+
+#submit{
+       background-image : url(calc.jpg) ;
+       background-attachment: fixed;
+       font-weight: bold;
+       color: white;
+       opacity: 0.6;
+       border: solid 3px;
+       border-color: white;
+       width: 110px;
+     }
+     #submit:hover{opacity: 1}
