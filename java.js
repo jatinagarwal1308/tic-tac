@@ -7,7 +7,6 @@ function register()
       p2 = document.getElementById("p2").value ; 
 
       elem.innerHTML = p1+ "'s turn" ;
-	console.log(p1,p2)
 }
 
 function restart()
@@ -92,12 +91,12 @@ function value(i,j)
  {
     if(fg == "O")
  	{
-        string = p1 + "wins" ;
+        string = p1 + " wins" ;
     }
 
     else
     {
-        string = p2 + "wins" ;
+        string = p2 + " wins" ;
     }
  }
 
